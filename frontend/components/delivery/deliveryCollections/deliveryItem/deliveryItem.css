@@ -1,0 +1,26 @@
+.delivery-item-cover{
+    height: 12rem;
+    width: 12rem;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border-radius: 50%;
+}
+
+.delivery-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    transform: none;
+    opacity: 1;
+}
+
+.delivery-item-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+    text-align: center;
+    margin-right: 20px;
+}
