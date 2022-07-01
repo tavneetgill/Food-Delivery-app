@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "food dilivery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanjc/Mern-Food-delivery-site.git"
+  },
+  "author": "Tavneet Shailesh Shakshi Karan Achsah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karanjc/Mern-Food-delivery-site/issues"
+  },
+  "homepage": "https://github.com/karanjc/Mern-Food-delivery-site#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
