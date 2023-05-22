@@ -1,0 +1,47 @@
+.App{
+  height: 100%;
+  width: 100%;
+  background: url(../../components/homePage/homeImages/featured3.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.ContactPage {
+  text-align: center;
+ 
+}
+
+.ContactPage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ContactPage-logo {
+    animation: ContactPage-logo-spin infinite 20s linear;
+  }
+}
+
+.ContactPage-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ContactPage-link {
+  color: #61dafb;
+}
+
+@keyframes ContactPage-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

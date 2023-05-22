@@ -1,0 +1,9 @@
+.food-section{
+    margin-top: 16px;
+}
+
+.food-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

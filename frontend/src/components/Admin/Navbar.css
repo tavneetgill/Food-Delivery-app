@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+ /* View table */
+.user-header {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    padding-top: 20px;
+    font-weight: 200;
+}
+
+
+ .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #fff;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.navbar-container{
+  position: fixed;
+  z-index: 999;
+  margin-top: 85px;
+  width: 250px;
+  height: 645px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 48 51 / var(--tw-bg-opacity));
+  display: grid;
+  align-items: center;
+  top: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-menu{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 60px);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.navbar-link{
+  font-family: 'Mukta', sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+
+}
