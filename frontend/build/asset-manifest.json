@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Food-Delivery-app/static/css/main.17dbeacc.css",
+    "main.js": "/Food-Delivery-app/static/js/main.a96c7555.js",
+    "static/media/2.jpg": "/Food-Delivery-app/static/media/2.717991492812e31622d5.jpg",
+    "static/media/featured3.jpg": "/Food-Delivery-app/static/media/featured3.f7506bae6d36fa2721e2.jpg",
+    "static/media/food1.jpg": "/Food-Delivery-app/static/media/food1.635c0685cd56a636710e.jpg",
+    "static/media/emptyCart.jpg": "/Food-Delivery-app/static/media/emptyCart.e5aace7ea2fb44f12dc4.jpg",
+    "index.html": "/Food-Delivery-app/index.html",
+    "main.17dbeacc.css.map": "/Food-Delivery-app/static/css/main.17dbeacc.css.map",
+    "main.a96c7555.js.map": "/Food-Delivery-app/static/js/main.a96c7555.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17dbeacc.css",
+    "static/js/main.a96c7555.js"
+  ]
+}
